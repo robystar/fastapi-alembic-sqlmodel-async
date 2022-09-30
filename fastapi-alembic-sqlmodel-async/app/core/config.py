@@ -50,6 +50,6 @@ class Settings(BaseSettings):
     
     class Config:
         case_sensitive = True
-        env_file = os.path.expanduser("~/.env")
+        env_file = os.path.expanduser("../.env")
 
 settings = Settings()
